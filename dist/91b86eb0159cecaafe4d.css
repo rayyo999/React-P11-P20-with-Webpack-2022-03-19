@@ -1,0 +1,112 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/project11/P11.css ***!
+  \*************************************************************************/
+.body-p11{
+    font-family: sans-serif;
+    background-color: rgb(228, 228, 169);
+    max-width: 800px;
+    margin: auto;
+}
+.main-p11{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.start-p11{
+    text-align: center;
+    margin: 200px;
+    max-width: 100%;
+    font-size: 30px;
+}
+.start-p11 > button{
+    background-color: rgb(46, 46, 102);
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.page-p11 .check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-p11 .checkBtn{
+    background-color: rgba(43, 43, 139, 0.507);
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.page-p11 .checkBtn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.651);
+}
+.page-p11 .restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-p11 .count{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.page-p11 .restartBtn {
+    background-color: rgba(215, 77, 219, 0.507);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.page-p11 .restartBtn:hover {
+    cursor: pointer;
+    background-color: rgba(215, 77, 219, 1);
+}
+.quiz-p11 {
+    padding: 5px;
+}
+.quiz-p11 hr {
+    margin-top: 30px;
+    padding: 0 5px;
+}
+.quiz-p11 h3{
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.quiz-p11 .option-list{
+    display: flex;
+}
+.quiz-p11 .option {
+    min-width: 90px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 0 20px 0 0;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+.quiz-p11 .option:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.quiz-p11 .option-click {
+    background-color: blueviolet;
+}
+.quiz-p11 .option-correct{
+    background-color: rgb(63, 218, 63);
+}
+.quiz-p11 .option-incorrect{
+    background-color: rgb(221, 96, 121);
+}
+
+
