@@ -8,10 +8,10 @@ const Option = ({value,click,setclick,idForQuiz,idForOption,check,isAnswer,setco
         toggle = "option"
     }
     if(check === true){
-        if(isAnswer === true){
+        if(click === true && isAnswer === true){
             toggle = " option option-correct"
         }
-        if(click === true && isAnswer === false){
+        if(click === false && isAnswer === true){
             toggle = "option option-incorrect"
         }
     }
